@@ -1,0 +1,18 @@
+{
+	"neme": "施策名を記入",
+	"description": "ここに設定の概要などを記載する",
+	"dataList": [
+		{
+			"repository": "some-repo1",
+			"projectPath": "/enter/the-relative-or-absolute-path/from-the-project-file/and/home-directory/",
+			"baseBranch": "origin/main",
+			"targetBranch": "feature/some-target-branch"
+		},
+		{
+			"repository": "some-repo2",
+			"projectPath": "/enter/the-relative-or-absolute-path/from-the-project-file/and/home-directory/",
+			"baseBranch": "origin/master",
+			"targetBranch": "feature/some-target-branch"
+		}
+	]
+}
