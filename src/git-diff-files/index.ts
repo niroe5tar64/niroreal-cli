@@ -1,6 +1,6 @@
+import getGitDiffFiles from "./get-git-diff-files";
 import loadCommandOptions from "./load-command-opts";
 import loadRepoBranchSettings from "./load-settings";
-import getGitDiffFiles from "./get-git-diff-files";
 
 console.log("[Git Diff Files] start process");
 

@@ -1,15 +1,20 @@
 {
-  "name": "niroreal-cli",
-  "module": "index.ts",
-  "type": "module",
-  "dependencies": {
-    "commander": "^12.1.0"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "^1.9.0",
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  }
+	"name": "niroreal-cli",
+	"module": "index.ts",
+	"type": "module",
+	"scripts": {
+		"lint": "biome lint --write ./src",
+		"format": "biome format ./src --write",
+		"check": "biome check --write ./src"
+	},
+	"dependencies": {
+		"commander": "^12.1.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.0",
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	}
 }

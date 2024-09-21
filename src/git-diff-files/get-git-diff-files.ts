@@ -1,8 +1,9 @@
-import { $ } from "bun";
 import os from "os";
 import path from "path";
+import { $ } from "bun";
 import type { RepositoryData } from "./load-settings";
 
+// biome-ignore lint/suspicious/noControlCharactersInRegex: <explanation>
 const REGEX_TRAILING_NULL = /\u0000+$/;
 const REGEX_TRAILING_NEW_LINE = /\n+$/;
 
